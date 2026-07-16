@@ -13,7 +13,7 @@
     "flags": [
       "-DNDEBUG=1",
       "-DCP_USE_DOUBLES=0",
-      "-Isrc", "-include cp_custom_alloc.h",
+      "-Isrc", "-Wp,-include,cp_custom_alloc.h",
       "-Dcpcalloc=cp_custom_calloc",
       "-Dcprealloc=cp_custom_realloc",
       "-Dcpfree=cp_custom_free"
